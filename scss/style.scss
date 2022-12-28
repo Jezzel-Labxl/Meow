@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #080808;
+  font-family: "Press Start 2P", cursive;
+}
+.header {
+  .header-nav {
+    display: flex;
+    justify-content: space-around;
+
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+
+      img {
+        width: 150px;
+      }
+      a {
+        text-decoration: none;
+        color: #a2a2a2;
+      }
+    }
+    .nav-enlace {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .nav-lista {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+      }
+      .nav-lista li {
+        list-style: none;
+        color: #a2a2a2;
+      }
+    }
+  }
+  .header-main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+
+    .header-main-container {
+      color: #a2a2a2;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+
+      .main-container-contenido {
+        h1 {
+          text-align: center;
+          font-size: 5rem;
+        }
+        p {
+          margin: 3rem;
+          text-align: center;
+        }
+        .main-container-imagen {
+          img {
+            width: 200px;
+            height: 200px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.main {
+  background-color: #a2a2a2;
+  width: auto;
+  height: 900px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 2rem;
+
+  .footer-logo {
+    img {
+      width: 140px;
+      height: auto;
+    }
+  }
+
+  .footer-enlace {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+  }
+  // .footer-enlace-redes {
+  // }
+}
